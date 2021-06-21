@@ -4,7 +4,7 @@ function carregar(){
     var img = window.document.getElementById('manha')
     var data = new Date()
     var hora = data.getHours()
-    //hora = 19
+    //hora = 13
     var minuto = data.getMinutes()
     mensagem.innerHTML = `Agora são ${hora} horas e ${minuto} minutos.`
 

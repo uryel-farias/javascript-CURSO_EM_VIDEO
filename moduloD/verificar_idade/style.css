@@ -1,6 +1,6 @@
 body {
     background: cornflowerblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 16pt;
     text-align: center;
 }
@@ -12,6 +12,7 @@ header {
 section {
     background: whitesmoke;
     border-radius: 10px;
+    text-align: left;
     padding: 15px;
     width: 700px;
     margin: auto;
