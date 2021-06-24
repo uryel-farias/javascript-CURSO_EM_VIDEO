@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Virificador de Idade</title>
 </head>
+
 <body>
+
     <header>
         <h1>Verificador de Idade</h1>
     </header>
 
     <section>
+
         <div>
+
             <p>
                 Ano de Nascimento:
                 <input type="number" name="txtano" id="txtano" min="0" max="120">          
             </p>
+
             <p>
                 Sexo:
                 <input type="radio" name="radsex" id="masc" checked>
@@ -25,18 +30,29 @@
                 <input type="radio" name="radsex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
+
             <p>
                 <input type="button" value="Verificar" onclick="verificar()">
             </p>
+
         </div>
 
         <div id=res>
-            Preencha os dados acima para ver o resultado!
+            <p>Preencha os dados acima para ver o resultado!</p>
         </div>
+
+        <div id=res2>
+            <p></p>
+        </div>
+
     </section>
+
     <footer>
-        <p>Criate by: Uryel Farias</p>
+        <p>&copy; Criate by: Uryel Farias</p>
     </footer>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>

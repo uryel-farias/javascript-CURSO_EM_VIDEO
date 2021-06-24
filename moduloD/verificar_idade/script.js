@@ -1,4 +1,5 @@
 function verificar() {
+    
     var data =new Date()
     var ano = data.getFullYear()
     var formulario_ano = document.getElementById('txtano')
@@ -50,9 +51,9 @@ function verificar() {
         }
         
         res.style.textAlign = 'center'
-        res.innerHTML = `Os dados indformados são de uma pessoa do gênero ${genero} que tem ${idade} anos.\n` 
-        
-        res.appendChild(img)
+        res.innerHTML = `Os dados informados são de uma pessoa do gênero ${genero} que tem ${idade} anos.\n`
+        res2.style.textAlign = 'center'
+        res2.appendChild(img)
 
 
     }
