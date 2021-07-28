@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    font: normal bold 16px/normal tahoma;
+    background-color: blanchedalmond;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    background-color: rgb(56, 170, 40);
+    border-radius: 10px;
+    margin: 50px auto 10px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px black;
+}
+
+article h3 {
+    padding: 10px;
+    color: white;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
